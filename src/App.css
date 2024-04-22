@@ -1,0 +1,152 @@
+.App{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 6rem;
+    margin-left: 3rem;
+
+}
+::-webkit-scrollbar{
+    width: 0.7rem;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #96FFFF;
+    border-radius: 2rem;
+    padding: 1rem;
+    
+    
+}
+::-webkit-scrollbar-track{
+    background-color: #61CAD7;
+
+}
+
+/* Vineji's styling, left as comment for backup
+@media (max-width: 1300px){
+    .App{
+        gap: 2rem;
+    }
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .App {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        gap: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .weather {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .App {
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 10vh;
+        margin-bottom: 10%;
+    }
+
+    .weather {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .App {
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        gap: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .weather {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .App {
+        flex-direction: column;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        gap: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .weather {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .App {
+        flex-direction: row;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+    }
+
+    .weather {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .App {
+        flex-direction: row;
+        margin-left: 0rem;
+        margin-right: 2rem;
+        gap: 3rem;
+        margin-bottom: 0rem;
+    }
+
+    .weather{
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .App{
+        display: flex;
+        flex-direction: row;
+        gap: 4.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .weather{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin-bottom: 6rem;
+        margin-left: 3rem;
+        margin-left: 1.5rem;
+    }
+}

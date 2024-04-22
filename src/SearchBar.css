@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.search{
+    display: flex;
+    align-self: flex-start;
+    background-color: #F27D42;
+    border-radius: 5rem;
+    height: 3rem;
+    width: 43rem;
+    border: none;
+    color: #022449;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+input::placeholder{
+    color: #022449;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.searchButton{
+    background-color: #F27D42;
+    border: none;
+    height: 3.4rem;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+img{
+    height: 2rem;
+}
+.searchButton:hover{
+    border: #022449 solid 3px; 
+    transition: border 0.1s ease-in-out;
+
+}
+
+@media (max-width: 1300px){
+    .search{
+        margin-top: 1.6rem;
+        width: 38rem;
+        height:2.7rem;
+    }
+    .searchButton{
+        margin-top: 1.6rem;
+        width: 3rem;
+        height: 2.9rem;
+    }
+
+}
+
+@media (max-width: 1200px){
+    .search{
+        width: 35rem;
+        height:2.6rem;
+    }
+
+
+}
+
+
+@media (max-width: 1100px){
+    .search{
+        width: 32rem;
+        height:2.6rem;
+    }
+    .searchButton{
+        width: 2.9rem;
+        height: 2.8rem;
+    }
+
+}
+@media (max-width: 980px){
+    .search{
+        width: 40rem;
+        height:2.6rem;
+    }
+    .searchButton{
+        width: 2.9rem;
+        height: 2.8rem;
+    }
+    
+
+}
+@media (max-width: 900px){
+    .search{
+        width: 38rem;
+        height:2.6rem;
+    }
+    .searchButton{
+        width: 2.9rem;
+        height: 2.8rem;
+    }
+}
+@media (max-width: 800px){
+    .search{
+        width: 34rem;
+        height:2.6rem;
+    }
+    .searchButton{
+        width: 2.9rem;
+        height: 2.8rem;
+    }
+}
+@media (max-width: 700px){
+    .search{
+        width: 29rem;
+        height:2.6rem;
+    }
+}
+@media (max-width: 600px){
+    .search{
+        width: 25rem;
+        height:2.6rem;
+    }
+}
+
+@media (max-width: 540px){
+    .search{
+        width: 21rem;
+        height: 2.5rem;
+    }
+    .searchButton{
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+
+}
+@media (max-width: 495px){
+    .search{
+        width: 18.7rem;
+        height: 2.5rem;
+    }
+
+}
+
+@media (max-width: 440px){
+    .search{
+        width: 15rem;
+        height: 2.5rem;
+        font-size: 1.1rem;
+    }
+    input::placeholder{
+        font-size: 1.1rem;
+
+    }
+
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');

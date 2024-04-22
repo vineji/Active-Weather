@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.wIcon{
+    height: 20rem;
+    width: auto;
+    margin-left: 14rem;
+}
+.Rname{
+    margin-left: 2.5rem;
+    font-family: 'Comfortaa', cursive;
+    width: 26rem;
+
+}
+.sun{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.sun_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.1rem;
+}
+.sun_icon{
+    height: 2.4rem;
+    width: auto;
+
+}
+.sun_text{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.1rem;
+    color: #022449;
+
+}
+.resultsHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.1rem;
+}
+.results{
+    border-radius: 2rem;
+    width: 93%;
+    height: 74%;
+    margin: 0 auto;
+    background-image: linear-gradient(180deg,rgb(94, 136, 200), aqua);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.1rem;
+    gap: 1rem;
+    font-family: 'Abel', sans-serif;
+    font-weight: 700;
+}
+.card{
+    color: #022449;
+    width: 8rem;
+    height: 15rem;
+    border: solid 0.12rem #022449;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wind_div{
+    font-size: 1.27rem;
+}
+.card_title{
+    font-size: 1.1rem;
+}
+
+.thermometer{
+    height: 6rem;
+    width: auto;
+}
+.pressure{
+    height: 6rem;
+    width: auto;
+}
+.wind{
+    height: 6.1rem;
+    width: auto;
+}
+.humidity{
+    margin-top: 0.5rem;
+    height: 5.5rem;
+    width: auto;
+}
+.desc_icon{
+    height: 6rem;
+    width: auto;
+}
+.desc_text{
+    font-size: 1.3rem;
+    margin-bottom: 0.9rem;
+
+}
+.temp_text{
+    font-size: 1.7rem;
+}
+
+
+@media (max-width: 1300px){
+    .wIcon{
+        margin-left: 12rem;
+    }
+    .data{
+        gap: 1rem;
+        margin-left: 1rem;
+    }
+    .Rname{
+        width: 23.7rem;
+        margin-left: 2rem;
+    }
+    .sun_icon{
+        height: 2rem;
+        width: auto;
+
+    }
+    .sun_text{
+        font-size: 1rem;
+
+    }
+    .card{
+        width: 7.5rem;
+        height: 13rem;
+        margin-bottom: 1rem;
+    }
+    .thermometer{
+        height: 5rem;
+        width: auto;
+    }
+    .pressure{
+        height: 5rem;
+        width: auto;
+    }
+    .wind{
+        height: 4.5rem;
+        width: auto;
+    }
+    .wind_div{
+        font-size: 1.2rem;
+    }
+    .humidity{
+        height: 4.7rem;
+        width: auto;
+    }
+    .desc_text{
+        font-size: 1.2rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .temp_text{
+        font-size: 1.4rem
+    }
+
+}
+
+@media (max-width: 1200px){
+    .wIcon{
+        margin-left: 10rem;
+    }
+    .data{
+        margin-left: 1.2rem;
+    }
+    .Rname{
+        width: 20rem;
+        margin-left: 1.7rem;
+    }
+    .card{
+        width: 6.7rem;
+        height: 13rem;
+        margin-bottom: 1rem;
+    }
+
+}
+
+
+@media (max-width: 1100px){
+    .wIcon{
+        margin-left: 8.5rem;
+    }
+    .data{
+        gap: 1rem;
+        margin-left: 0.9rem;
+    }
+    .Rname{
+        width: 18.5rem;
+        margin-left: 1.5rem;
+    }
+    .sun_div{
+        gap: 2rem;
+    }
+    .sun_icon{
+        height: 2rem;
+        width: auto;
+
+    }
+    .sun_text{
+        font-size: 1rem;
+
+    }
+    .card{
+        width: 6.1rem;
+        height: 12.5rem;
+        margin-bottom: 1rem;
+    }
+    .card_title{
+        font-size: 1rem;
+    }
+    .thermometer{
+        height: 4.7rem;
+        width: auto;
+    }
+    .pressure{
+        height: 4.7rem;
+        width: auto;
+    }
+    .wind{
+        height: 4.6rem;
+        width: auto;
+    }
+    .wind_div{
+        font-size: 1rem;
+    }
+    .humidity{
+        height: 4.3rem;
+        width: auto;
+    }
+    .desc_text{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .temp_text{
+        font-size: 1.3rem
+    }
+
+}
+@media (max-width: 980px){
+    .wIcon{
+        margin-left: 13rem;
+    }
+    .data{
+        gap: 1.5rem;
+        margin-left: 0.9rem;
+    }
+    .Rname{
+        width: 26rem;
+        margin-left: 1.5rem;
+    }
+    .sun_div{
+        gap: 1.9rem;
+    }
+    .sun_icon{
+        height: 2.2rem;
+        width: auto;
+
+    }
+    .sun_text{
+        font-size: 1.2rem;
+
+    }
+    .card{
+        width: 7.5rem;
+        height: 13rem;
+        margin-bottom: 1rem;
+    }
+    .card_title{
+        font-size: 1.2rem;
+    }
+    .thermometer{
+        height: 4.7rem;
+        width: auto;
+    }
+    .pressure{
+        height: 4.7rem;
+        width: auto;
+    }
+    .wind{
+        height: 4.6rem;
+        width: auto;
+    }
+    .wind_div{
+        font-size: 1.1rem;
+    }
+    .humidity{
+        height: 4.3rem;
+        width: auto;
+    }
+    .desc_text{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .temp_text{
+        font-size: 1.3rem
+    }
+
+}
+@media (max-width: 900px){
+    .wIcon{
+        margin-left: 11rem;
+    }
+    .data{
+        gap: 1rem;
+        margin-left: 1.1rem;
+
+    }
+    .Rname{
+        width: 23.5rem;
+    }
+    .card{
+        width: 7.3rem;
+        height: 13rem;
+    }
+    .sun_text{
+        font-size: 1.1rem;
+    }
+    
+}
+@media (max-width: 800px){
+    .wIcon{
+        margin-left: 10rem;
+    }
+    .data{
+        gap: 1rem;
+        margin-left: 1.2rem;
+
+    }
+    .Rname{
+        width: 20.5rem;
+    }
+    .card_title{
+        font-size: 1rem;
+    }
+    .card{
+        width: 6.5rem;
+        height: 13rem;
+    }
+    .sun_text{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 700px){
+    .wIcon{
+        margin-left: 7rem;
+    }
+    .data{
+        gap: 0.5rem;
+        margin-left: 1rem;
+
+    }
+    .Rname{
+        width: 17.4rem;
+    }
+    .card_title{
+        font-size: 1rem;
+    }
+    .card{
+        width: 5.9rem;
+        height: 13rem;
+    }
+    .desc_text{
+        font-size: 1.1rem;
+    }
+    .wind_div{
+        font-size: 1.1rem;
+    }
+    .sun_div{
+        gap: 1.2rem;
+    }
+    .sun{
+        gap: 0.2rem;
+    }
+    .sun_text{
+        font-size: 0.96rem;
+    }
+    .sun_icon{
+        width: 2rem;
+        height: auto;
+    }
+}
+@media (max-width: 600px){
+    .wIcon{
+        margin-left: 5rem;
+    }
+    .data{
+        gap: 0.4rem;
+        margin-left: 1.1rem;
+
+    }
+
+    .Rname{
+        width: 14rem;
+    }
+    .card_title{
+        font-size: 0.9rem;
+    }
+    .card{
+        width: 5.2rem;
+        height: 12rem;
+    }
+    .desc_text{
+        font-size: 1rem;
+    }
+    .wind_div{
+        font-size: 0.95rem;
+    }
+    .sun_text{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 540px){
+    .data{
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+        margin-left: 0.9rem;
+
+    }
+    .Rname{
+        width: 11rem;
+    }
+    .wIcon{
+        width: 20rem;
+        margin-left: 3rem;
+    }
+    .card{
+        flex-direction: row;
+        width: 25rem;
+        height: 7rem;
+        gap: 2rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .card_title{
+        font-size: 1.6rem;
+    }
+    .wind_div{
+        font-size: 1.3rem;
+    }
+    .desc_text{
+        font-size: 1.3rem;
+    }
+    .thermometer{
+        width: auto;
+        height: 4rem;
+    }
+    .desc_icon{
+        height: 6rem;
+    }
+    .humidity{
+        width: 3rem;
+    }
+
+
+}
+@media (max-width: 495px){
+    .data{
+        gap: 0rem;
+        margin-left: 2.1rem;
+        width: 20rem;
+
+    }
+    .wIcon{
+        width: 17rem;
+        margin-left: 4rem;
+    }
+    .Rname{
+        width: 8rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .card{
+        width: 22rem;
+        height: 5rem;
+        gap: 2.5rem;
+
+    }
+    .card_title{
+        font-size: 1.3rem;
+    }
+    .wind_div{
+        font-size: 1rem;
+    }
+    .desc_text{
+        font-size: 1rem;
+    }
+    .thermometer{
+        width: auto;
+        height: 3rem;
+    }
+    .desc_icon{
+        height: 5rem;
+    }
+    .humidity{
+        width: 2.1rem;
+    }
+    .pressure{
+        height: 3.3rem;
+    }
+    .wind{
+        height: 3.5rem;
+    }
+
+}
+@media (max-width: 440px){
+    .data{
+        gap: 0rem;
+        width: 20rem;
+        margin-left: 0.3rem;
+    }
+    .Rname{
+        width: 5rem;
+    }
+    .sun_icon{
+        width: 1.6rem;
+    }
+    .sun_text{
+        font-size: 0.85rem;
+    }
+    .card{
+        width: 18rem;
+        height: 5rem;
+        gap: 1rem;
+
+    }
+    .wIcon{
+        width: 15rem;
+        margin-left: 2.6rem;
+    }
+    .card_title{
+        font-size: 1.3rem;
+    }
+    .wind_div{
+        font-size: 1rem;
+    }
+    .desc_text{
+        font-size: 1rem;
+    }
+    .thermometer{
+        width: auto;
+        height: 3rem;
+    }
+    .desc_icon{
+        height: 5rem;
+    }
+    .humidity{
+        width: 2.1rem;
+    }
+    .pressure{
+        height: 3.3rem;
+    }
+    .wind{
+        height: 3.5rem;
+    }
+
+}

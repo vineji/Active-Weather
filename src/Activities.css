@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.rightTile{
+
+    display: flex;
+    flex-direction: column;
+
+
+
+    width: 25rem;
+    height: 42rem;
+
+    padding: 1rem;
+    gap: 0rem;
+
+    border-radius: 2rem;
+    background: #96FFFF;
+    font-family: 'Comfortaa', cursive;
+}
+.header{
+    color: #022449;
+    margin-left: 1rem;
+}
+.scrollable{
+    overflow-y: auto;
+    max-height: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.scrollable::-webkit-scrollbar{
+    width: 0.5rem;
+}
+.scrollable::-webkit-scrollbar-thumb{
+  background-color: #F27D42;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.scrollable::-webkit-scrollbar-track{
+    background-color: #edd4c8;
+    border-radius: 2rem;
+
+}
+
+
+.activityData {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    color: #022449;
+    border: solid 0.1rem #022449;
+    border-radius: 1rem;
+    padding: 0.7rem;
+}
+
+.activityData h2{
+    margin-bottom: 0.5em;
+}
+.outdoor{
+    margin-top: 5rem;
+    height: 18rem;
+    width: auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .rightTile{
+        width: 31rem;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .rightTile{
+        width: 88%;
+        align-self: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .rightTile{
+        width: 33rem;
+        align-self: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .rightTile{
+        width: 43rem;
+        align-self: center;
+    }
+    .header{
+        font-size: 2rem;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) 
+THIS IS WHERE IT'S CHANGED TO COLOUMN */
+@media only screen and (min-width: 992px) {
+    .rightTile{
+        width: 40rem;
+        align-self: center;
+        margin-top: 1rem;
+    }
+    .header{
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1200px){
+    .rightTile{
+        width: 18rem;
+        margin-bottom: 0rem;
+        margin-top: 2rem;
+    }
+    .header{
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1250px){
+    .rightTile{
+        width: 20rem;
+        margin-bottom: 0rem;
+        margin-top: 2rem;
+    }
+    .header{
+        font-size: 1.6rem;
+    }
+}
+
+
+@media (min-width: 1300px){
+    .rightTile{
+        width: 19rem;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+    }
+    .header{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width: 1350px){
+    .rightTile{
+        width: 20rem;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+    }
+    .header{
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 1400px){
+    .rightTile{
+        width: 28rem;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+    }
+}
