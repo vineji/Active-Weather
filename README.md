@@ -2,6 +2,8 @@
 
 A weather app for outdoor enthusiasts.
 
+This weather app will give provide essential weather information about the areaa the user types in while also providing local indoor/outdoor activites for uses to explore in the area.
+
 # Contributors
 
 Haonan Wang (t.wang@se22.qmul.ac.uk / ec22907) <br> 
