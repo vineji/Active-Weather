@@ -15,7 +15,7 @@ const Activities = ({globalCity}) => {
     const fetchCoords = async () => {
         try {
             const response = await axios.get(
-            `https://api.geoapify.com/v1/geocode/search?text=${globalCity}&format=json&apiKey=5a932255cafc4521aa5c1e3181469ec4
+            `https://api.geoapify.com/v1/geocode/search?text=${globalCity}&format=json&apiKey=*********
             `
             );
             // This is Konrad's API key, make sure to replace it with your own.
