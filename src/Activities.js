@@ -50,7 +50,7 @@ const Activities = ({globalCity}) => {
             const response = await axios.get(
             /*`https://api.geoapify.com/v2/places?categories=entertainment.activity_park&filter=circle:${lon},${lat},5000&bias=proximity:${lon},${lat}&limit=4&apiKey=5a932255cafc4521aa5c1e3181469ec4
             ` */
-            `https://api.geoapify.com/v2/places?categories=entertainment.activity_park&filter=place:${placeID}&bias=proximity:${lon},${lat}&limit=4&apiKey=5a932255cafc4521aa5c1e3181469ec4`
+            `https://api.geoapify.com/v2/places?categories=entertainment.activity_park&filter=place:${placeID}&bias=proximity:${lon},${lat}&limit=4&apiKey=*********`
             );
             // This is Konrad's API key, make sure to replace it with your own. (or better yet, implement env files for API keys)
             // it only returns 4 activities at max, so that the app does not become too crowded with data
