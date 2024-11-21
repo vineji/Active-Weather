@@ -2,7 +2,8 @@
 
 A weather app for outdoor enthusiasts.
 
-This weather app will give provide essential weather information about the area the user types in while also providing local indoor/outdoor activites for uses to explore in the area.
+This weather app will give provide essential weather information about the area the user types in while also providing local indoor/outdoor activites for uses to explore in the area. 
+
 
 # Contributors
 
